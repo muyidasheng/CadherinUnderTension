@@ -1,2 +1,9 @@
 # CadherinUnderTension
-Insight from a computational model
+### Summary
+E-cadherins play a critical role in the formation of cell-cell adhesions for several physiological functions, including tissue development, repair and homeostasis. The formation of clusters of E-cadherins involves extracellular adhesive (trans-) and lateral (cis-) associations between E-cadherin ectodomains and stabilization through intracellular binding to the actomyosin cytoskeleton. This binding provides force to the adhesion and is required for mechanotransduction. However, the exact role of cytoskeletal force on the clustering of E-cadherins is not well understood. In order to gain insights into this mechanism, we developed a computational model based on Brownian dynamics. In the model, E-cadherins transit between structural and functional states: they are able to bind and unbind other E-cadherins on the same and/or opposite cell(s) through trans- and cis- interactions, while also binding and unbinding the actomyosin cytoskeleton. Our results show that cortical force governs the fraction of E-cadherins in clusters and the size and number of clusters. For low forces (below 10 pN), a large amount of small E-cadherin clusters forms with less than 5 E-cadherins each. At higher forces, the probability of forming fewer but larger clusters increases. These findings support the idea that force reinforces cell-cell adhesions, which is consistent with differences in cluster size previously observed between apical and lateral junctions of epithelial tissues.
+
+### Files 
+- **Main.java** The entrance of the computational simuation of the coarse-grained model
+- **Cadherin.java** The cadherin class to mimic the cadherin protein as moving beads 
+- **Actin.java** The actin class to mimic the actomyosin as ghost beads to provide the cortical tension
+- **Force_interaction.java** The class file to define all force interaction between cadherin beads and actin beads
